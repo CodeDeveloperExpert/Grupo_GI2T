@@ -1,0 +1,29 @@
+El grupo tiene como propósito contribuir en la construcción de conocimiento para responder a las necesidades y oportunidades de las comunidades asentadas en el distrito capital a través de la innovación. Nuestro enfoque se centra en promover el acceso, uso y apropiación tecnológica como herramientas fundamentales para impulsar el desarrollo sostenible de esta región.
+
+La recolección de información en el estudio de acceso, uso y apropiación de TIC es realizada de manera activa por los estudiantes que forman parte del semillero de investigación. Estos estudiantes colaboran de manera entusiasta en diversas fases del proceso, las cuales incluyen la búsqueda bibliográfica sobre temas relacionados con el acceso, uso y apropiación de las TIC. También se investigan modelos existentes que hayan sido aplicados con fines similares, así como las políticas gubernamentales relacionadas con el tema.
+
+
+Una vez recopilada la información pertinente, se procede a la selección de las instituciones educativas que serán objeto de estudio. A cada una de estas instituciones se les asigna un grupo de estudiantes del semillero de investigación, quienes serán los responsables de acompañar y asistir a los estudiantes de grados 10 y 11 en el proceso de diligenciamiento del instrumento de caracterización.
+
+Por tanto, se deberán organizar grupos de máximo cuatro personas que deberán diseñar en primera instancia una base de datos que permita la recolección de información mediante la creación, aplicación y gestión de instrumentos de encuesta orientados a caracterizar el acceso, uso y apropiación de las TICs en instituciones educativas. Estos instrumentos deben ser diseñados y organizados en secciones por un administrador y posteriormente aplicados a estudiantes, docentes, o en casos especiales, a una persona específica (como la rectoría de una institución). El sistema debe proporcionar funcionalidades similares a las de plataformas como Google Forms o Microsoft Forms.
+
+Detalles del Requerimiento:
+
+1. Instrumentos y Secciones:
+- Cada instrumento de encuesta se compone de múltiples preguntas que pueden ser agrupadas en secciones. Estas preguntas deben ser creadas y gestionadas por un administrador del sistema.
+
+2. Ciclo de Recolección de Datos:
+- Los instrumentos se asignan a ciclos de recolección de datos planificados en intervalos de fechas específicos. Cada ciclo se asocia a una locación específica, que puede ser una ciudad, una región, o un departamento.
+
+3. Asignación de Instrumentos:
+- Los instrumentos pueden estar dirigidos a instituciones educativas, grupos de estudiantes, docentes, o en casos especiales, a una persona específica dentro de la institución.
+- En el caso de los estudiantes del semillero, el sistema debe permitir la asignación de uno o varios estudiantes a cada instrumento dentro de un ciclo de recolección de datos específico.
+
+4. Registro de Estudiantes del Semillero:
+- Los estudiantes del semillero deben ser registrados en el sistema, permitiendo su asociación con una o varias instituciones educativas. La relación entre los estudiantes y las instituciones debe estar vinculada a un ciclo de recolección de datos, para asegurar que la información esté contextualizada temporal y espacialmente.
+
+5. Responsabilidad en la Recolección de Datos:
+- Al aplicar un instrumento, el sistema debe registrar de manera detallada cuál estudiante del semillero responsable de la recolección de datos, toda vez que en una institución específica durante un ciclo de recolección de datos determinado. Esto es muy importante pues es un factor que ayuda a determinar el número de encuestas aplicadas por cada persona, y más cuando varios estudiantes estén asociados con la misma institución en el mismo periodo de tiempo.
+
+6. Integridad y Detalle de la Información:
+- La base de datos debe garantizar la integridad de la información, permitiendo que se rastree la responsabilidad de cada estudiante sobre los datos recolectados. Esto incluye la capacidad de diferenciar y detallar la participación de cada estudiante en la aplicación de los instrumentos, incluso cuando compartan la misma institución y ciclo de recolección de datos.
