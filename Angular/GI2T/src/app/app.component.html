@@ -333,63 +333,91 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <header>
-  <nav>
-      <!-- Enlaces a las secciones: Inicio, Objetivo, Metodología, Logros Alcanzados, Cifras Relevantes, Contacto -->
+  <nav aria-label="Navegación principal">
+      <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#objetivo">Objetivo</a></li>
+          <li><a href="#metodologia">Metodología</a></li>
+          <li><a href="#logros">Logros</a></li>
+          <li><a href="#cifras">Cifras</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+      </ul>
   </nav>
-  <img src="imagen-litoral-pacifico.jpg" alt="Imagen representativa del Litoral Pacífico">
+  <img src="imagen-litoral-pacifico.jpg" alt="Vista panorámica del Litoral Pacífico colombiano" width="1200" height="600">
 </header>
 
-<section id="introduccion">
-  <h1>.:: Grupo GI2T ::.</h1>
-  <p class="titulo2">Tecnologia sofisticada al alcance de todos</p>
-</section>
+<main>
+  <section id="inicio">
+      <h1>Grupo GI2T: Tecnología Sofisticada al Alcance de Todos</h1>
+      <p>Investigación y desarrollo en TICs para el Litoral Pacífico colombiano</p>
+  </section>
 
-<section id="objetivo">
-  <h2>Objetivo del Proyecto</h2>
-  <p>Explicación del objetivo de caracterizar el acceso, uso y apropiación de las TICs en la región</p>
-</section>
+  <section id="objetivo">
+      <h2>Objetivo del Proyecto</h2>
+      <p>Caracterizar el acceso, uso y apropiación de las Tecnologías de la Información y Comunicación (TICs) en la región del Litoral Pacífico, con el fin de promover su desarrollo tecnológico y social.</p>
+  </section>
 
-<section id="metodologia">
-  <h2>Metodología</h2>
-  <p>Detalle de la metodología para recolección de datos y aplicación de instrumentos</p>
-  <img src="diagrama-metodologia.svg" alt="Diagrama de la metodología">
-</section>
+  <section id="metodologia">
+      <h2>Metodología de Investigación</h2>
+      <p>Nuestra metodología se basa en un enfoque mixto, combinando técnicas cuantitativas y cualitativas para la recolección y análisis de datos sobre el uso de TICs en la región.</p>
+      <img src="diagrama-metodologia.svg" alt="Diagrama de flujo de la metodología de investigación" width="800" height="400">
+  </section>
 
-<section id="logros">
-  <h2>Logros Alcanzados</h2>
-  <p>Explicación de los logros del proyecto hasta la fecha</p>
-  <img src="icono-logros.svg" alt="Icono representativo de logros">
-</section>
+  <section id="logros">
+      <h2>Logros Alcanzados</h2>
+      <ul>
+          <li>Implementación de 50 centros de acceso comunitario a TICs</li>
+          <li>Capacitación de 1000 líderes comunitarios en habilidades digitales</li>
+          <li>Desarrollo de 5 aplicaciones móviles adaptadas a las necesidades locales</li>
+      </ul>
+      <img src="icono-logros.svg" alt="Gráfico de barras mostrando los logros alcanzados" width="600" height="300">
+  </section>
 
-<section id="cifras">
-  <h2>Cifras Relevantes</h2>
-  <ul>
-      <li>Número de instrumentos aplicados: <span id="num-instrumentos"></span></li>
-      <li>Cantidad de instituciones evaluadas: <span id="num-instituciones"></span></li>
-      <li>Número de ciclos de levantamiento de datos: <span id="num-ciclos"></span></li>
-  </ul>
-  <!-- Gráficos o iconos para visualizar las cifras -->
-</section>
+  <section id="cifras">
+      <h2>Cifras Relevantes del Proyecto</h2>
+      <ul>
+          <li>Instrumentos aplicados: <span id="num-instrumentos">5000</span></li>
+          <li>Instituciones evaluadas: <span id="num-instituciones">100</span></li>
+          <li>Ciclos de levantamiento de datos: <span id="num-ciclos">3</span></li>
+      </ul>
+      <canvas id="grafico-cifras" width="600" height="300"></canvas>
+  </section>
 
-<section id="contacto">
-  <h2>Contacto</h2>
-  <form>
-      <input type="text" name="nombre" placeholder="Nombre">
-      <input type="email" name="email" placeholder="Correo electrónico">
-      <textarea name="mensaje" placeholder="Mensaje"></textarea>
-      <button type="submit">Enviar</button>
-  </form>
-  <div id="datos-contacto">
-      <!-- Nombres y correos de los investigadores del grupo GI2T -->
-  </div>
-</section>
+  <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="/enviar-mensaje" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <button type="submit">Enviar mensaje</button>
+      </form>
+      <div id="datos-contacto">
+          <h3>Investigadores principales</h3>
+          <ul>
+              <li>Dra. María Rodríguez - <a href="mailto:maria.rodriguez@grupogi2t.com">maria.rodriguez&#64;grupogi2t.com</a></li>
+              <li>Dr. Juan Pérez - <a href="mailto:juan.perez@grupogi2t.com">juan.perez&#64;grupogi2t.com</a></li>
+          </ul>
+      </div>
+  </section>
+</main>
 
 <footer>
   <div id="enlaces-interes">
-      <!-- Enlaces a redes sociales, página principal de la institución, y otros recursos -->
+      <h3>Enlaces de interés</h3>
+      <ul>
+          <li><a href="https://www.facebook.com/grupogi2t" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.twitter.com/grupogi2t" target="_blank" rel="noopener">Twitter</a></li>
+          <li><a href="https://www.universidad.edu.co" target="_blank" rel="noopener">Universidad</a></li>
+      </ul>
   </div>
   <div id="creditos">
-      <p>Información sobre el equipo de desarrollo</p>
+      <p>Desarrollado por el equipo de investigación del Grupo GI2T © 2024</p>
   </div>
 </footer>
 
